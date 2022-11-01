@@ -22,7 +22,6 @@ if __name__ == '__main__':
     iron_main = IronMan()
     get_armored(iron_main)
 
-    # suite = Suite()
+    suite = Suite()
     # get_armored(suite) # error # AttributeError: 'Suite' object has no attribute 'armor'
 
-    
