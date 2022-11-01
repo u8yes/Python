@@ -12,4 +12,4 @@ class B(A):
 if __name__ == '__main__':
     obj = B()
 
-    print(obj.message)
+    print(obj.message) # AttributeError: 'B' object has no attribute 'message'
