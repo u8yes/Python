@@ -11,7 +11,7 @@ class Car: # DB 데이터를 관리하는 자바의 V0같은 역할을 하는 �
     def backward(self):         # 후진
         pass
 
-    def turn_left(self):        # 좌회원
+    def turn_left(self):        # 좌회전
         pass
 
     def turn_right(self):       # 우회전
