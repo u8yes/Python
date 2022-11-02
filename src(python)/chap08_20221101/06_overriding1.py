@@ -14,14 +14,22 @@ class C(A):
 
 # ---- 여기까지는 다중상속이 아니다. -----
 
+def override(overriding):
+    overriding.method()
+
 if __name__ == '__main__':
     a = A()
-    a.method()
+    # a.method()
 
     b = B()
-    b.method()
+    # b.method()
 
     c = C()
-    c.method()
+    # c.method()
 
-    print()
+    override(a)
+    override(b)
+    override(c)
+
+    # override("ABC") # .method가 없다고 반응해줌 # AttributeError: 'str' object has no attribute 'method'
+
